@@ -30,7 +30,7 @@
     [layer setPlayer:player];
     [player play];
     
-    NSURL *url = [[NSBundle mainBundle]URLForResource:@"11" withExtension:@"mp4"];
+    NSURL *url = [[NSBundle mainBundle]URLForResource:@"1_720" withExtension:@"mp4"];
     NSLog(@"%@",NSStringFromCGRect(self.view.bounds));
     _videoView = [[MHVideoView alloc]initWithFrame:self.view.bounds];
     _videoView.backgroundColor = [UIColor whiteColor];

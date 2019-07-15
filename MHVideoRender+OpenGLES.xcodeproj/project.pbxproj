@@ -23,11 +23,11 @@
 		7C4D173422DC7B6100ABF027 /* MHVideoPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D172F22DC7B6100ABF027 /* MHVideoPlayerManager.m */; };
 		7C4D173522DC7B6100ABF027 /* MHVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D173022DC7B6100ABF027 /* MHVideoCompositor.m */; };
 		7C4D173622DC7B6100ABF027 /* MHVideoEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D173122DC7B6100ABF027 /* MHVideoEffect.m */; };
-		7C4D173822DC7BDB00ABF027 /* 11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D173722DC7BDB00ABF027 /* 11.mp4 */; };
 		7C4D173A22DC7BE900ABF027 /* 12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D173922DC7BE900ABF027 /* 12.mp4 */; };
 		7C4D173F22DC7CB000ABF027 /* GLSLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D173D22DC7CB000ABF027 /* GLSLProgram.m */; };
 		7C4D174222DC7CF900ABF027 /* VideoShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D174022DC7CF900ABF027 /* VideoShader.vsh */; };
 		7C4D174322DC7CF900ABF027 /* VideoShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D174122DC7CF900ABF027 /* VideoShader.fsh */; };
+		7C4D174522DC847B00ABF027 /* 1_720.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D174422DC847B00ABF027 /* 1_720.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,13 +80,13 @@
 		7C4D172F22DC7B6100ABF027 /* MHVideoPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHVideoPlayerManager.m; sourceTree = "<group>"; };
 		7C4D173022DC7B6100ABF027 /* MHVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHVideoCompositor.m; sourceTree = "<group>"; };
 		7C4D173122DC7B6100ABF027 /* MHVideoEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHVideoEffect.m; sourceTree = "<group>"; };
-		7C4D173722DC7BDB00ABF027 /* 11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11.mp4; sourceTree = "<group>"; };
 		7C4D173922DC7BE900ABF027 /* 12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12.mp4; sourceTree = "<group>"; };
 		7C4D173B22DC7C3B00ABF027 /* MHVideoRender+OpenGLES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHVideoRender+OpenGLES-Prefix.pch"; sourceTree = "<group>"; };
 		7C4D173D22DC7CB000ABF027 /* GLSLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSLProgram.m; sourceTree = "<group>"; };
 		7C4D173E22DC7CB000ABF027 /* GLSLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLProgram.h; sourceTree = "<group>"; };
 		7C4D174022DC7CF900ABF027 /* VideoShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = VideoShader.vsh; sourceTree = "<group>"; };
 		7C4D174122DC7CF900ABF027 /* VideoShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = VideoShader.fsh; sourceTree = "<group>"; };
+		7C4D174422DC847B00ABF027 /* 1_720.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_720.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +161,8 @@
 				7C4D173B22DC7C3B00ABF027 /* MHVideoRender+OpenGLES-Prefix.pch */,
 				7C4D174122DC7CF900ABF027 /* VideoShader.fsh */,
 				7C4D174022DC7CF900ABF027 /* VideoShader.vsh */,
-				7C4D173722DC7BDB00ABF027 /* 11.mp4 */,
 				7C4D173922DC7BE900ABF027 /* 12.mp4 */,
+				7C4D174422DC847B00ABF027 /* 1_720.mp4 */,
 			);
 			path = "MHVideoRender+OpenGLES";
 			sourceTree = "<group>";
@@ -327,11 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4D173A22DC7BE900ABF027 /* 12.mp4 in Resources */,
+				7C4D174522DC847B00ABF027 /* 1_720.mp4 in Resources */,
 				7C4D16EB22DC7AF900ABF027 /* LaunchScreen.storyboard in Resources */,
 				7C4D174222DC7CF900ABF027 /* VideoShader.vsh in Resources */,
 				7C4D16E822DC7AF900ABF027 /* Assets.xcassets in Resources */,
 				7C4D16E622DC7AF800ABF027 /* Main.storyboard in Resources */,
-				7C4D173822DC7BDB00ABF027 /* 11.mp4 in Resources */,
 				7C4D174322DC7CF900ABF027 /* VideoShader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
